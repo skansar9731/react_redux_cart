@@ -52,9 +52,9 @@ const Header = () => {
             Add to cart
           </NavLink>
           <Nav className="me-auto">
-            <Nav.Link to="/" className="text-decoration-none text-light">
+            <NavLink to="/home" className="text-decoration-none text-light">
               Home
-            </Nav.Link>
+            </NavLink>
           </Nav>
           <Badge
             badgeContent={getdata.length}
